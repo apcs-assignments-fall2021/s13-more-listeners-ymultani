@@ -19,9 +19,9 @@ public class SudokuButton extends JButton implements KeyListener {
     // when the key goes down
     @Override
     public void keyPressed(KeyEvent e) {
-        // To interact with the current SudokuButton, use: this
-        // For instance, if we wanted to get the text of the
-        // current button, we'd say: this.getText()
+        if(e.getKeyCode() > 0 && e.getKeyCode() < 10){
+
+        }
     }
 
     // when the key goes up
